@@ -107,11 +107,11 @@ module.exports = router;
 
 
 
-/*router.get('/viewusers', withAuth, async (req, res) => {
-  try {
-      let users = await User.find()
-      res.json(users);
-  } catch (error) {
-      res.status(500).json({ error: 'Problem to get users' });
-  }
-});*/
+    /*router.get('/viewusers', withAuth, async (req, res) => {
+    try {
+        let users = await User.find()
+        res.json(users);
+    } catch (error) {
+        res.status(500).json({ error: 'Problem to get users' });
+    }
+    });*/
