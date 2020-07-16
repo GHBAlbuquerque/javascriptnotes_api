@@ -6,7 +6,6 @@ require('dotenv').config(); //variaveis de ambiente no .env ficam disponiveis pa
 const secret = process.env.JWT_TOKEN;
 const withAuth = require('../middlewares/auth');
 
-
 router.post('/register', async (req, res) => {
   const { name, email, password } = req.body;
   const user = new User({ name, email, password });
